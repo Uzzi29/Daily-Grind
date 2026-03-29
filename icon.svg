@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background -->
+  <rect width="512" height="512" rx="112" fill="#0f0f0f"/>
+  <!-- Subtle gold radial glow -->
+  <radialGradient id="glow" cx="50%" cy="42%" r="55%">
+    <stop offset="0%" stop-color="#e8c547" stop-opacity="0.12"/>
+    <stop offset="100%" stop-color="#0f0f0f" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="512" height="512" rx="112" fill="url(#glow)"/>
+  <!-- "DG" logotype -->
+  <text
+    x="256"
+    y="320"
+    text-anchor="middle"
+    font-family="'Futura', 'Arial Black', system-ui, sans-serif"
+    font-weight="900"
+    font-size="220"
+    letter-spacing="-8"
+    fill="#e8c547"
+  >DG</text>
+  <!-- Thin gold underline bar -->
+  <rect x="140" y="348" width="232" height="6" rx="3" fill="#e8c547" opacity="0.5"/>
+</svg>
